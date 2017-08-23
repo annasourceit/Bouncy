@@ -1,0 +1,66 @@
+/*Section Team*/
+.team {
+	padding: 75px 0 75px 0;
+}
+.wrapper {
+	width: 1030px;
+	margin: 0 auto;
+}
+.team__hedears {
+	text-align: center;
+	@include headers();
+	margin-bottom: 62px;
+}
+.team__employee__info {
+	width: 420px;
+	text-align: right;
+	padding: 30px 0 46px 0;
+	outline: none;
+	&:focus {
+		outline: none;
+	}
+	.employee__info__name {
+		color: #464646;
+		font-family: $font-family1;
+		font-size: $text-font-size*20/14;
+		font-weight: 400;
+		padding-right: 48px;
+		border-right: solid 4px #19bd9a;
+        padding-bottom: 5px;
+	}
+	.employee__info__position {
+		color: #81868e;
+		font-family: $font-family2;
+		font-size: $text-font-size*15/14;
+		font-style: italic;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding-right: 48px;
+		border-right: solid 4px #19bd9a;
+		margin-bottom: 24px;
+		letter-spacing: 1px;
+	}
+	.employee__info__text {
+		color: #81868e;
+		font-family: $font-family1;
+		font-size: $text-font-size;
+		font-weight: 400;
+		padding-right: 48px;
+		line-height: 24px;
+		letter-spacing: 0.5px;
+	}
+
+}
+
+/* Slider*/
+.slick-initialized .slick-slide {
+    display: flex;
+
+}
+.firstSlider .slick-slide:focus {
+	outline: none;
+
+}
+.slick-dots li button:before {
+	-moz-font-size: 12px;
+}

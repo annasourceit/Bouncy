@@ -1,0 +1,43 @@
+/*Menu*/
+
+
+.menu {
+
+	justify-content:flex-end;
+	margin-right: -18px;
+
+	&__item {
+		transition: all .3s  ease;
+		text-align: center;
+		margin-left: 5px;
+		border: 1px solid transparent;
+		border-radius: 17px;
+		&--active, &--hover, {
+			height: 33px;
+			border: 1px solid white;
+			border-radius: 17px;
+		}
+	}
+
+	&__link {
+		padding: 0px 19px; 
+		color: white;
+		font-family: $font-family1;
+		font-size: $text-font-size*16/14;
+		font-weight: 400;
+		transition: all .3s  ease;
+		line-height: 31px;
+
+		&.plr17 {
+		    padding: 0px 17px;
+		}
+
+		&.plr6 {
+		    padding: 0px 6px;
+		}
+
+		&.plr16 {
+		    padding: 0px 16px;
+		}
+	}
+}

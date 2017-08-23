@@ -1,0 +1,22 @@
+/*Header*/
+
+.header {
+	
+	color: white;
+	padding: 40px 0 77px 0;
+	background: url(../../img/Header_Bg_img.png) no-repeat center;
+	background-size: cover;
+
+	.nuv__logo {
+		height: 33px;
+		width: 20%;
+		& a {
+			line-height: 41px;
+		}
+	}
+	.nuv__menu {
+		height: 33px;
+		width: 80%;
+	}
+    
+}

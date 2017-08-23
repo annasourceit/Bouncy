@@ -1,0 +1,40 @@
+/*Banner*/
+
+.banner {
+	margin-top: 197px;
+	&__head {
+		font-family: $font-family2;
+		font-size: $text-font-size*35/14;
+		font-weight: 300;
+		line-height: 70px;
+		letter-spacing: 7.1px;
+		text-transform: uppercase;
+		text-align:center;
+	}
+	&__subhead {
+		margin: 15px 0 203px 0;	
+		font-family: $font-family1;
+		font-size: $text-font-size*16/14;
+		font-weight: 400;
+		letter-spacing: 1px;
+		line-height: 28px;
+		text-align:center;
+	}
+	&__btn {
+		cursor: pointer;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		& img {
+			position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%,-50%);
+		    transition: all .3s  ease;
+		}
+		& img:hover {
+			width: 110%;
+			height: 110%;
+		}
+	}
+}

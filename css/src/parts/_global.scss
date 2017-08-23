@@ -1,0 +1,62 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: $font-family1;
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1169px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*Grid Isotope*/
+.grid {
+	width: 1110px;
+	margin-bottom: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+/* 4 columns, percentage width */
+.grid-item,
+.grid-sizer {
+    width: 25%;
+}
+.grid-item {
+    display: inline-block;
+    float: left;
+}

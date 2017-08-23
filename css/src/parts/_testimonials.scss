@@ -1,0 +1,61 @@
+/*Section Testimonials*/
+.testimonials {
+	background-color: #f3f3f3;
+	padding: 80px 0 68px 0;	
+}
+
+.testimonials__hedears {
+	text-align: center;
+	@include headers();
+	margin-bottom: 60px;
+}
+.testimonials__person {
+	background-color:white;
+	padding: 59px 121px 0px 95px;
+	
+}
+.testimonials__person_foto {
+	/* margin-right: 69px; */
+	align-items:center;
+	flex: none;
+    width: 13em;
+}
+.testimonials__person_foto img {
+	border-radius: 60px;
+}
+
+.testimonials__person__info {
+	
+	.person__info__text {
+		color: #81868e;
+		font-family: $font-family1;
+		font-size: $text-font-size*16/14;
+		font-weight: 400;
+		letter-spacing: 0.7px;
+		margin-bottom: 30px;
+	}
+	.person__info__name {
+		color: #19bd9a;
+		font-family: $font-family1;
+		font-size: $text-font-size*16/14;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 12px;
+	}
+	.person__info__regard {
+		color: #464646;
+		font-family: $font-family1;
+		font-size: $text-font-size;
+		font-weight: 400;
+
+	} 
+
+}
+/* Slider*/
+ .secondSlider .slick-slide:focus {
+	outline: none;
+    
+}
+ .secondSlider .slick-dots {
+    padding: 3px 0 60px 0 ;
+}

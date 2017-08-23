@@ -1,0 +1,59 @@
+/*Section Portfolio*/
+
+.portfolio {
+	background-color: #f3f3f3;
+	padding: 80px 0 102px 0;	
+}
+
+.portfolio__hedears {
+	text-align: center;
+	@include headers();
+}
+.filter-button-group {
+
+	justify-content: center;
+	margin: 79px 0 11px 0;
+
+	button {
+		background: none;
+		outline: none;
+		border: none;
+		color: #464646;
+		font-family: $font-family1;
+		font-size: $text-font-size*16/14;
+		font-weight: 400;
+		cursor: pointer;
+		margin-right: 33px;
+		&:last-child {
+			margin-right: 0;
+		}	
+	}
+}
+.button__shapes {
+	justify-content: center;
+    margin-bottom: 60px;        
+	.shape__item {
+		position: relative;
+		display: inline-block;
+		width: 38px;
+		
+		border: 1.5px solid #f3f3f3;
+		margin-right: 33px;
+
+		&:nth-child(2) {
+			left: 16px;
+		}
+		&:nth-child(3) {
+			left: 30px;
+		}
+		&:nth-child(4) {
+			left: 43px;
+		}
+		&:nth-child(5) {
+			left: 43px;
+		}
+		&--active, &--hover {
+			border: 1.5px solid #19bd9a;
+		}
+	}
+}  
